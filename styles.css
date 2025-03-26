@@ -1,0 +1,69 @@
+body{
+    /* margin: 0px;
+    padding: 0px; */
+    background-image: linear-gradient(rgb(0, 204, 255), yellow);
+    background-repeat: no-repeat;
+    min-height:97.3vh;
+    
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(102, 26, 172);
+}
+
+#items{
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 2em;
+    right: 30%;
+   bottom: 40%;
+   height: 300px;
+   width: 350px;
+
+
+    
+
+
+   text-align: center;
+   overflow: auto;
+}
+
+#inputdiv{
+    position: absolute;
+    border-radius: 2em;
+    right: 30%;;
+   bottom: 20%;
+   
+
+
+}
+
+#inputvalue{
+    font-size: 25px;
+    border-radius: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#addItem{
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: rgb(93, 180, 239);
+    border: none;
+    font-family:sans-serif
+
+}
+#addItem:hover{
+    background-color: rgb(74, 140, 184);
+}
+
+
+#text1{
+    position: absolute;
+    left: 200px;
+    bottom: 6px;
+}
+/* the text in list and button */
+
